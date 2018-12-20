@@ -1,0 +1,59 @@
+body{
+    margin:0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: -webkit-fill-available;
+    background-image: url(Images/BackgroundGray.jpg);
+}
+
+.center {
+  align-self: center;
+}
+
+#GameBoard {
+    border: solid;
+    background-color:white;
+    align-self: center;
+    border: solid;
+    margin-top:36px;
+}
+
+#MusicToggle {   
+    text-decoration: line-through;
+    cursor: pointer;
+    width:100px;
+}
+
+#OptionsMenu {
+    width: fit-content;
+    font-size: 24px;
+    position: absolute;
+    left: 271px;
+    top: 96px;
+    background-color: white;
+    border: solid;
+}
+
+#HelpModal {
+    display: none;
+    position: absolute;
+    background: white;
+    border: solid;
+    width: 324px;
+}
+
+
+#HelpToggle{
+    cursor:pointer;
+}
+
+#HelpToggleText:hover{
+    background-color: yellow;
+}
+#MusicToggle:hover {
+    background-color: yellow;
+}

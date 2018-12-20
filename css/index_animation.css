@@ -1,0 +1,18 @@
+﻿@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    -webkit-animation-duration:2s;
+    animation-delay: 2s;
+    animation-name: zoomIn;
+}

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Game.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="TicTacToe.js"></script>
+</head>
+<body>
+    <div id="TicTacToeGameBackground">
+        <div id="TicTacToeGameTitle">Tic Tac Toe</div>
+        <canvas id="TicTacToeBoard" width="600" height="600"></canvas>
+        <canvas id="TLSquare" onclick="MarkSquare(this)" width="195" height="195"></canvas>
+        <canvas id="TMSquare" onclick="MarkSquare(this)" width="190" height="195"></canvas>
+        <canvas id="TRSquare" onclick="MarkSquare(this)" width="195" height="195"></canvas>
+        <canvas id="MLSquare" onclick="MarkSquare(this)" width="195" height="190"></canvas>
+        <canvas id="MMSquare" onclick="MarkSquare(this)" width="190" height="190"></canvas>
+        <canvas id="MRSquare" onclick="MarkSquare(this)" width="195" height="190"></canvas>
+        <canvas id="BLSquare" onclick="MarkSquare(this)" width="195" height="195"></canvas>
+        <canvas id="BMSquare" onclick="MarkSquare(this)" width="190" height="195"></canvas>
+        <canvas id="BRSquare" onclick="MarkSquare(this)" width="195" height="195"></canvas>
+
+        <div id="LeftColumn">
+            <div id="XPlayer">xplayer</div>
+            <div id="XTurnIndicator">IT'S YOUR TURN!</div>
+
+        </div>
+        <div id="RightColumn">
+            <div id="OPlayer" onclick="JoinTwoPlayerLobby()">oplayer</div>
+            <div id="OTurnIndicator"></div>
+        </div>
+        <div id="RestartButton" onclick="RestartGame()">Restart</div>
+    </div>    
+</body>
+</html>

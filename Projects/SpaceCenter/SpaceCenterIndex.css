@@ -1,0 +1,64 @@
+﻿body {
+    margin:0;
+    background-color:black;
+}
+
+#SpaceCenterIndexBackGround{
+    height:100%;
+    width:100%;
+}
+
+#SpaceCenterIndexNavBox {
+    position: absolute;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    z-index: 2;
+    top: 23%;
+    left: 33%;
+    border: solid 7px #5d5d5d;
+    font-family:fantasy;
+}
+
+#SpaceWelcome {
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 84px;
+    margin-bottom: 31px;
+}
+
+#SpaceHelp {
+    display: inline-block;
+    float: right;
+    border: solid;
+    cursor:pointer;
+}
+
+#EnterIdPrompt {
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+#EnterIdInput {
+    border: inset;
+    width: 300px;
+    margin-left: 97px;
+    margin-bottom: 78px;
+}
+
+#CreateSpaceSessionButton {
+    display: inline-block;
+    margin-left: 146px;
+    margin-right: 94px;
+    border: solid;
+    padding: 5px;
+    cursor:pointer;
+}
+
+#JoinSpaceSessionButton {
+    display: inline;
+    border: solid;
+    padding: 5px 15px;
+    cursor:pointer;
+}

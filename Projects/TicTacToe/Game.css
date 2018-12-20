@@ -1,0 +1,193 @@
+﻿body{
+    margin:0px;
+}
+
+#TicTacToeGameTitle {
+    text-align: center;
+    font-size: 26px;
+}
+
+#TicTacToeBoard {
+    margin-left: 425px;
+    margin-top: 45px;
+    background: cornflowerblue;
+}
+
+#XPlayer {
+    font-size: 26px;
+    font-family: fantasy;
+    min-height: 33px;
+    min-width: 100px;
+    background-color: black;
+    color: cornflowerblue;
+    padding: 6px;
+    padding-left: 20px;
+    border-radius: 14px;
+}
+
+#OPlayer {
+    font-size: 26px;
+    font-family: fantasy;
+    min-height: 33px;
+    min-width: 100px;
+    background-color: black;
+    color: cornflowerblue;
+    padding: 6px;
+    padding-left: 20px;
+    border-radius: 14px;
+}
+
+#LeftColumn {
+    position: absolute;
+    left: 161px;
+    top: 66px;
+}
+
+#RightColumn {
+    position: absolute;
+    right: 196px;
+    top: 66px;
+}
+
+#TicTacToeGameBackground {
+    height: 1000px;
+    background-color: red;
+}
+
+#RestartButton {
+    display: inline-block;
+    position: relative;
+    top: 62px;
+    right: 362px;
+    background-image: linear-gradient(#64ef75, #00be0f);
+    border: solid 1px;
+    font-size: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#RestartButton:hover{
+    background-image:none;
+    animation-name: ColorWheel;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ColorWheel {
+    0% {
+        background-color: #00be0f;        
+    }
+    50% {
+        background-color: #64ef75;
+    }
+    100% {
+        background-color: #00be0f;
+    }
+}
+
+#TurnIndicator {
+    position: absolute;
+    left: 45%;
+    top: 6%;
+}
+/*-------------------------------------------*/
+#TLSquare {
+    position: absolute;
+    cursor: pointer;
+    left: 425px;
+    top: 75px;
+}
+
+#TMSquare {
+    position: absolute;
+    cursor: pointer;
+    left: 630px;
+    top: 75px;
+}
+
+#TRSquare {
+    position: absolute;
+    cursor: pointer;
+    left: 830px;
+    top: 75px;
+}
+
+#MLSquare {
+    position: absolute;
+    cursor: pointer;
+    left: 425px;
+    top: 280px;
+}
+
+#MMSquare {
+    position: absolute;
+    cursor: pointer;  
+    left: 630px;
+    top: 280px;
+}
+
+#MRSquare {
+    position: absolute;
+    cursor: pointer;
+    left: 830px;
+    top: 280px;
+}
+
+#BLSquare {
+    position: absolute;
+    cursor:pointer;
+    left: 425px;
+    top: 480px;
+}
+
+#BMSquare {
+    position: absolute;
+    left: 630px;
+    top: 480px;
+    cursor: pointer;
+}
+
+#BRSquare {
+    position: absolute;
+    left: 830px;
+    top: 480px;
+    cursor: pointer;
+}
+
+
+#TLSquare:hover {
+    background-color:yellow;
+}
+
+#TMSquare:hover {
+    background-color: yellow;
+}
+
+#TRSquare:hover {
+    background-color: yellow;
+}
+
+#MLSquare:hover {
+    background-color: yellow;
+}
+
+#MMSquare:hover {
+    background-color: yellow;
+}
+
+#MRSquare:hover {
+    background-color: yellow;
+}
+
+#BLSquare:hover {
+    background-color: yellow;
+}
+
+#BMSquare:hover {
+    background-color: yellow;
+}
+
+#BRSquare:hover {
+    background-color: yellow;
+}
+

@@ -1,0 +1,47 @@
+﻿@media only screen and (max-width: 1200px) {
+    .HomeLinkButtons {
+        margin: 0px 1%;
+    }
+
+    #HomeImageAndMessageBox {
+        text-align: center
+    }
+
+    .HomeLinkButtons {
+        background-color: #003466;
+        border: none;
+        color: white;
+        font-size: 116px;
+        margin: 0px 84px;
+        border: solid;
+        margin-top: 26px;
+    }
+
+    #HomeClearBox img {
+        margin-left: 0px;
+    }
+
+    #HomePageMessage {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 35px;
+        text-align: center;
+        font-family: cursive;
+        display: block;
+        width: auto;
+    }
+
+    #HomeImageAndMessageBox {
+        padding: 0px;
+    }
+
+    .DisplayImage{
+        width:350px;
+        height:350px;
+    }
+        
+    .DisplayName {
+        font-size: 47px;
+        width: auto;
+    }
+}
