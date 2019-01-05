@@ -19,9 +19,13 @@
     }
 
     #HomeClearBox {
-        height: -webkit-fill-available;
+        height: initial;
         margin-top: 0px;
         padding-top: 40px;
+    }
+    
+    #MainBackground{
+        height:initial;
     }
 
     #HomeClearBox img {
