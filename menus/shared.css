@@ -7,7 +7,7 @@ html {
 body {
     margin: 0%;
     height: 100%;
-    z-index:1;
+    z-index: 1;
 }
 
 a {
@@ -19,7 +19,6 @@ a {
     height: 71px;
     width: 100%;
     background-color: #559ed2;
-    display: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 5;
     position: absolute;
@@ -35,6 +34,7 @@ a {
     font-size: 31px;
     font-family: monospace;
     margin: 1%;
+    display:inline-block;
 }
 
 .NavTabOut {
@@ -59,18 +59,6 @@ a {
 
 .NavTabOut:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#Resume_menu {
-    display: none;
-}
-
-#Project_menu {
-    display: none;
-}
-
-#About_menu {
-    display: none;
 }
 
 #Resume_pdf {
@@ -171,6 +159,15 @@ a {
 
 }
 
+#NavSelect {
+    float: right;
+    height: inherit;
+    border: none;
+    background-color: #2582c4;
+    padding: 0px 0px 0px 12px;
+    text-align: center;
+    font-size: 21px;
+}
 
 
 

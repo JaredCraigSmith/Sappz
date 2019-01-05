@@ -1,7 +1,19 @@
 ﻿
-#test1 {
-    font-size: 100px;
+html {
+    height: 100%;
 }
+
+body {
+    margin: 0%;
+    height: 100%;
+    z-index: 1;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
 
 .container {
     background-color: #99CCFF;
@@ -32,8 +44,8 @@
 #HomeClearBox {
     background: #0000009c;
     margin: 0px 26px;
-    margin-top: 99px;
-    height: 74%;
+    margin-top: 61px;
+    height: 83%;
     color: white;
     z-index: 2;
 }
@@ -48,7 +60,7 @@
     cursor: pointer;
 
     -webkit-animation-name: zoomIn;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 2s;
     animation-delay: 0s;
     animation-name: zoomIn;
 }

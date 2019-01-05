@@ -1,0 +1,84 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    margin: 0%;
+    height: 100%;
+    z-index:1;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.DisplayImage {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 30px;
+}
+    .DisplayImage:hover {
+        border: solid #559ed2;
+        margin: 27px;
+    }
+
+.DisplayName {
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.DisplayLink {
+    margin: 0 5%;
+    cursor: pointer;
+    width: fit-content;
+    display:inline-block;
+}
+
+.DisplayRow {
+    display: flex;
+    margin-bottom: 66px;
+}
+
+
+#ProjectMenuBackground {
+    background-color: black;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    width: -webkit-fill-available;
+    z-index: 2;
+    background-image: url(https://img.freepik.com/free-photo/wooden-plank-textured-background-material_53876-31378.jpg?size=338&ext=jpg);
+}
+
+#ProjectsContainer {
+    background-color: darkgray;
+    width: 80%;
+    height: auto;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: solid 12px;
+    padding-top: 100px;
+    text-align:center;
+}
+
+.ProjectDescription {
+    background-color: white;
+    display: inline-block;
+    padding: 18px;
+    border:solid 1px;
+    position:absolute;
+    display:none;
+}
+
+
+
+
+
+
+

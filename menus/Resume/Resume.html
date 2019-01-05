@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<style>
+    #Resume_pdf {
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+</style>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../shared.css" />
+
+</head>
+<body>
+    <div id="TopNavBar">
+        <div id="MainTitle">S-appz</div>
+        <select id="NavSelect" onchange="if (this.value) {   window.location.href = this.value; this.selectedIndex = 2;}">
+            <option value="/index.html">Home</option>
+            <option value="../Resume/Resume.html" selected="selected">Resume</option>
+            <option value="../Projects/Projects.html" >Projects</option>
+            <option value="../About/About.html">About me</option>
+
+        </select>
+
+    </div>
+
+    <!----------------------------------------------------------------------------------------------------->
+    <div id="Resume_menu">
+        <div style="text-align:center">
+            <embed id="Resume_pdf" src="Resume2018-9-22.pdf" width="1000" height="5000">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,13 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="index.js"></script>
-    <link rel="stylesheet" type="text/css" href="/css/index_animation.css" />
-    <link rel="stylesheet" type="text/css" href="/css/index.css">
-    <link rel="stylesheet" type="text/css" href="/css/index_menu.css" />
-    <link rel="stylesheet" type="text/css" href="/css/index_phone.css" />
-
+    <link rel="stylesheet" type="text/css" href="index_animation.css" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index_phone.css" />
 </head>
 
 <body>
@@ -24,44 +20,14 @@
                     <img src="/Images/Jared2.jpg" />
                 </div>
                 <div id="HomePageButtons">
-                    <button class="HomeLinkButtons pulse" onclick="open_menu('Resume_menu')">Résumé</button>
-                    <button class="HomeLinkButtons pulse" onclick="open_menu('Project_menu')">Projects</button>
-                    <button class="HomeLinkButtons pulse" onclick="open_menu('About_menu')">About me</button>
+                    <a class="HomeLinkButtons pulse" href="menus//Resume/Resume.html">Résumé</a>
+                    <a class="HomeLinkButtons pulse" href="menus/Projects/Projects.html">Projects</a>
+                    <a class="HomeLinkButtons pulse" href="menus/About/About.html">About me</a>
                 </div>
             </div>
 
         </div>
     </div>
-    <!----------------------------------------------------------------------------------------------------->
 
-    <div id="TopNavBar">
-        <div id="MainTitle">S-appz</div>
-        <div space style="    margin-top: 23px;font-size: 20px;width: 67%;font-family: monospace;"></div>
-        <div class="NavTabOut" onclick="open_menu('Home_menu')"><div class="NavTabIn">Home</div></div>
-        <div class="NavTabOut" onclick="open_menu('Resume_menu')"><div class="NavTabIn">Resume</div></div>
-        <div class="NavTabOut" onclick="open_menu('Project_menu')"><div class="NavTabIn">Projects</div></div>
-        <div class="NavTabOut" onclick="open_menu('About_menu')"><div class="NavTabIn">About me</div></div>
-    </div>
-
-    <!----------------------------------------------------------------------------------------------------->
-    <div id="Resume_menu">
-        <div style="text-align:center">
-            <embed id="Resume_pdf" src="Resume2018-9-22.pdf" width="1000" height="5000">
-        </div>
-    </div>
-    <!----------------------------------------------------------------------------------------------------->
-    <div id="Project_menu">
-        <div id="ProjectMenuBackground">
-            <div id="ProjectMenuTitle">Projects</div>
-            <div id="ProjectsContainer">
-
-
-            </div>
-        </div>
-    </div>
-    <!----------------------------------------------------------------------------------------------------->
-    <div id="About_menu">
-        about
-    </div>
 </body>
 </html>
