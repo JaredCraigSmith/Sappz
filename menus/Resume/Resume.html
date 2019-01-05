@@ -4,10 +4,24 @@
         width: -webkit-fill-available;
         height: -webkit-fill-available;
     }
+    #Resume_picture {
+        display:none;
+    }
+    @media only screen and (max-width: 1200px) {
+        #Resume_pdf{
+            display:none;
+        }
+        #Resume_picture {
+            display: inline-block;
+            width: -webkit-fill-available;
+            margin-top: 150px;
+        }
+    }
 </style>
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../shared.css" />
+    <link rel="stylesheet" type="text/css" href="../shared_phone.css" />
 
 </head>
 <body>
@@ -27,6 +41,7 @@
     <div id="Resume_menu">
         <div style="text-align:center">
             <embed id="Resume_pdf" src="Resume2018-9-22.pdf" width="1000" height="5000">
+            <img id="Resume_picture" src="/Images/ResumePicture.jpg"/>
         </div>
     </div>
 </body>

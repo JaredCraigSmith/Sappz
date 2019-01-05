@@ -14,17 +14,30 @@
         font-size: 116px;
         margin: 0px 84px;
         border: solid;
-        margin-top: 26px;
+        margin-top: 50px;
+        display:inline-block;
+    }
+
+    #HomeClearBox {
+        height: -webkit-fill-available;
+        margin-top: 0px;
+        padding-top: 40px;
     }
 
     #HomeClearBox img {
+        margin-top:20px;
         margin-left: 0px;
+        width: 545px;
+    }
+
+    #HomPageMessageTitle {
+        font-size: 98px;
     }
 
     #HomePageMessage {
         display: inline-block;
         vertical-align: top;
-        font-size: 35px;
+        font-size: 50px;
         text-align: center;
         font-family: cursive;
         display: block;

@@ -1,0 +1,26 @@
+﻿@media only screen and (max-width: 1200px) {
+
+    #TopNavBar {
+        height: auto;
+    }
+
+    #MainTitle {
+        font-size: 100px;
+    }
+
+    #NavSelect {
+        margin: 25px;
+        font-size: 67px;
+    }
+
+
+    #NavSelect option{
+        font-size:20px;
+    }
+
+
+
+
+    
+
+}
